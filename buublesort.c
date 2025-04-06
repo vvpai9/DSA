@@ -35,7 +35,7 @@ void loadArrayFromFile(int arr[], int n, char *filename) {
         exit(1);
     }
 
-    printf("Loading numbers from file...\n");  //debug print
+    printf("Loading numbers from file...\n"); //debug print
 
     for (int i = 0; i < n; i++)
     {
@@ -50,10 +50,12 @@ void loadArrayFromFile(int arr[], int n, char *filename) {
     fclose(input);
 }
 
-void bubbleSort(int arr[], int n) {
+void bubbleSort(int arr[], int n)
+{
     int swapped;
 
-    for (int i = 0; i < n - 1; i++) {
+    for (int i = 0; i < n - 1; i++)
+    {
         swapped = 0;  // Assume no swaps
         for (int j = 0; j < n - i - 1; j++) {
             if (arr[j] > arr[j + 1]) {
@@ -65,14 +67,14 @@ void bubbleSort(int arr[], int n) {
             }
         }
 
-        // Debugging(commented out)
         // printf("After pass %d: ",i+1);
         // for(int k=0;k<n;k++)
         // printf("%d ", arr[k]);
         // printf("\n");
 
-        if (!swapped) { 
-            // Exit early if no swaps were made
+        if (!swapped)
+        { 
+            // break if no swaps were made
             break; 
         }
     }
