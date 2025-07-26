@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1703932958 source:d:\savita soft\ds\trees\expression tree\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
