@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1748352523 source:d:\kle\sem-4\dsa\bfs_dfs\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
