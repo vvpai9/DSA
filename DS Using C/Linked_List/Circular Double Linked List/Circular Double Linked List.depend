@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1700813944 source:d:\savita soft\ds\linked list\circular double linked list\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1700813946 source:d:\savita_soft\ds\linked_list\circular double linked list\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

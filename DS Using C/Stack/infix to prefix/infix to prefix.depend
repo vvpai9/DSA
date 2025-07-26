@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1701434140 source:d:\savita soft\ds\stack\infix to prefix\main.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<math.h>
+
